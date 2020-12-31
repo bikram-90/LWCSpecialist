@@ -2,7 +2,7 @@
 // { functions, context, scope } 
 import { APPLICATION_SCOPE, createMessageContext, MessageContext, publish, releaseMessageContext, subscribe, unsubscribe } from 'lightning/messageService';
 // import BOATMC from the message channel
-import BOATMC from '@salesforce/messageChannel/boatMessageChannel__c';
+import BOATMC from '@salesforce/messageChannel/BoatMessageChannel__c';
 // Declare the const LONGITUDE_FIELD for the boat's Longitude__s
 // Declare the const LATITUDE_FIELD for the boat's Latitude
 // Declare the const BOAT_FIELDS as a list of [LONGITUDE_FIELD, LATITUDE_FIELD];
